@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="http://www.example.com/myicon.ico"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Traductor | Js</title>
+</head>
+<body>
+    <main class="main-container">
+        <h1 class="header">TRADUCTOR</h1>
+        <div class="languages-container">
+            
+            <!--------------------- Select languages --------------------->
+            <div class="flex-direction">
+                <label class="label" for="translateFrom">Traducir del:</label>
+                <select class="select" name="languages" id="translateFrom">
+                    <option value="espanol">hola</option>
+                </select>
+            </div>
+
+            <div class="flex-direction">
+                <label class="label" for="translateTo">Al:</label>
+                <select class="select" name="languages" id="translateTo">
+                    <option class="option" value="espanol">hola</option>
+                </select>
+            </div>
+
+        </div>
+        <!--------------------- Response languages --------------------->
+        <div class="input-output-submit-Container">
+
+            <div class="input-container">
+                <label class="input-label" for="input">Ingresa el texto a traducir</label><br>
+                <textarea class="textarea" name="input" id="input" cols="16" rows="7"></textarea>
+            </div>
+
+            <button class="btnTraslate"><i class="fa-solid fa-language"></i> Traducir</button>
+
+            <div class="output-container">
+                <label class="input-label" for="output">Resultado</label><br>
+                <textarea class="textarea" name="output" id="output" cols="16" rows="7"></textarea>
+            </div>
+
+        </div>
+    </main>
+    <footer class="footer">Programado Por <a href="https://www.linkedin.com/comm/in/elvin-haciel-lorenzo-perez-58207a195">Haciel Lorenzo</a></footer>
+    <script src="./main.js"></script>
+</body>
+</html>

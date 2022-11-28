@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    background-repeat: no-repeat;
+    height: 100vh ;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+.main-container{
+    height: 100%;
+    width: 90%;
+}
+.header{
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px 0px;
+    font-size: 1.8rem;
+    letter-spacing: 3px;
+    text-align: center;
+    background-color: royalblue;
+    color:white ;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+/* ---------Seleccion del idioma--------- */
+.languages-container{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.flex-direction{
+    padding: 8px;
+    align-items: center;
+    display: flex;
+    gap: 5px;
+}
+.label{
+    font-size: 1.1rem;
+}
+.select{
+    width: 125px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+/* ---------Respuesta del idioma--------- */
+.input-output-submit-Container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 15px 10px;
+}
+.input-label{
+    font-size: 1.2rem;
+}
+.textarea{
+    scroll-behavior: smooth;
+    box-shadow: 0 4px 8px 0 rgba(46, 31, 255, 0.1),
+     0 6px 20px 0 rgba(46, 31, 255, 0.19);
+    border: none;
+    resize: vertical;
+    margin-top: 5px;
+    border-radius: 15px;
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1rem;
+}
+textarea:focus{
+    outline: 2px solid royalblue;
+}
+.btnTraslate{
+    display: inline-block;
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: #84b3fd;
+    color: white;
+    border: 2px solid rgba(65, 105, 225, 0.6);
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin: 15px 0;
+    align-self: center;
+}
+.btnTraslate:hover{
+    transition: 200ms ease-out;
+    background-color: white;
+    color: #649dfa;
+}
+.fa-solid{
+    color: royalblue;
+}
+.footer{
+    margin-bottom: 13px;
+    bottom: 0;
+    position: absolute;
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+    text-align: center;
+    color: white ;
+}
+.footer a{
+    text-decoration: none;
+    color: #84b3fd;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
