@@ -174,7 +174,6 @@ textarea:focus{
     }
 
     body{
-        border: 1px solid red;
         display: flex;
         align-items: center;
         align-content: center;
